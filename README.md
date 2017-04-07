@@ -25,7 +25,7 @@ Docker 下搭建 DNS 服务器 dnsmasq
 2 directories, 5 files
 
 ## docker run -d -p 53:53/tcp -p 53:53/udp --cap-add=NET_ADMIN --name dns-server -v $pwd/etc/dnsmasq.conf:/etc/dnsmasq.conf -v $pwd/etc/resolv.dnsmasq:/etc/resolv.dnsmasq -v $pwd/etc/hosts:/etc/hosts andyshinn/dnsmasq:2.76
-
+## docker run -d -p 53:53/tcp -p 53:53/udp --cap-add=NET_ADMIN --name dns-server -v ~/workspace/github/docker.dnsmasq/etc/dnsmasq.conf:/etc/dnsmasq.conf -v ~/workspace/github/docker.dnsmasq/etc/resolv.dnsmasq:/etc/resolv.dnsmasq -v ~/workspace/github/docker.dnsmasq/etc/local-hosts:/etc/local-hosts andyshinn/dnsmasq:2.76
 
 
 # 修改本机 DNS 服务器地址
