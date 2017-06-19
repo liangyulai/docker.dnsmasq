@@ -1,0 +1,6 @@
+[submodule "cheesehosts"]
+	path = cheesehosts
+	url = https://git.oschina.net/runningcheese/cheesehosts.git
+[submodule "racaljk-hosts"]
+	path = racaljk-hosts
+	url = https://github.com/racaljk/hosts.git
