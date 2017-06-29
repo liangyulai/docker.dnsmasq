@@ -4,3 +4,6 @@
 [submodule "racaljk-hosts"]
 	path = racaljk-hosts
 	url = https://github.com/racaljk/hosts.git
+[submodule "wangchunming-hosts"]
+	path = wangchunming-hosts
+	url = https://github.com/wangchunming/2017hosts.git
